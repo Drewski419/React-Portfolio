@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import logo from "../../images/BLP-logo-footer.png";
+import logo from "../../images/Drops.png";
 
 function Footer() {
     return(

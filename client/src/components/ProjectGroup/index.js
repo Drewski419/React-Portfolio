@@ -1,7 +1,7 @@
 import React from 'react';
 import "./style.css";
-import icebox from "../../images/icebox.png"
-import snippet from "../../images/snippet.PNG";
+import icebox from "../../images/Manzy.jpg"
+import snippet from "../../images/First.jpg";
 
 function ProjectGroup() {
     return(
