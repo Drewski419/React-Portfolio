@@ -1,5 +1,5 @@
 #top, #bottom, #left, #right {
-	background: #32F08E;
+	background: #3284f0;
 	position: fixed;
 	animation: fadeInAnimation ease 1.5s;
 	animation-iteration-count: 1;

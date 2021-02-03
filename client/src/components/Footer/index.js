@@ -27,8 +27,8 @@ function Footer() {
 
                 <div className="footer-third">
                     <h1>Proudly built with</h1>
-                    <p>React.js, MongoDB, Express/Node, Javascript and deployed with AWS.
-                    Designed and built by Brandon Lee Piercy, 2021.
+                    <p>React.js, MongoDB, Express/Node, Javascript and deployed using Heroku.
+                    Designed and built by Andrew Clay Jefferson, 2021.
                     </p>
                 </div>
 
