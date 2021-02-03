@@ -1,0 +1,41 @@
+#top, #bottom, #left, #right {
+	background: #32F08E;
+	position: fixed;
+	animation: fadeInAnimation ease 1.5s;
+	animation-iteration-count: 1;
+	z-index: 2;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 25px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 25px;
+		}
+		#top { top: 0; }
+        #bottom { bottom: 0; }
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media 
+
+/* Fairly small screens including iphones */
+only screen and (max-width: 1000px),
+
+/* iPads */
+only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+
+{
+    #top, #bottom, #left, #right { display: none; }
+}

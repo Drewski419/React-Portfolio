@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.contact-background {
+    display: flex;
+    margin-top: 30px;
+    margin-right: 60%;
+    height: 770px;
+    background-color: #32F08E;
+    margin-bottom: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;;
+    animation: fadeInAnimation ease-in 1s;
+    animation-iteration-count: 1;
+}
+
+.contact-box {
+    width: 50%;
+}
+
+.contact-box h1 {
+    color: #D65BE7;
+    font-size: 80px;
+    position: relative;
+    left: 275px;
+}
+
+.contact-info-box {
+    position: relative;
+    left:400px;
+    width: 500px;
+    padding: 30px;
+    margin: 50px auto;
+    background-color: white;
+    transform:scale(1.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #FFBA94;
+}
+
+.contact-info-box a {
+    color: #FFBA94;
+}
+
+#email {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+#email-submit {
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    background-color: #32F08E;
+    border: none;
+    color: white;
+    transition-duration: 0.9s;
+    cursor: pointer;
+}
+
+#email-submit:hover {
+    color: #FFBA94;
+    transform: scale(1.1);
+}
+
+@media (max-width: 1300px) {
+    .email-form {
+        left:200px;
+    }
+
+    .contact-box h1 {
+        left: 150px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .contact-background {
+        margin-right: 0;
+        justify-content: center;
+    }
+
+    .email-form {
+        left: 0px;
+        transform:scale(1);
+
+    }
+
+    .contact-box h1 {
+        left: 0px;
+    }
+}
+
+@media (max-width: 700px) {
+    .contact-background {
+        justify-content: flex-start;
+    }
+
+    .email-form {
+        width: 300px;
+    }
+    
+    .email-form textarea {
+        width: 95%;
+    }
+}

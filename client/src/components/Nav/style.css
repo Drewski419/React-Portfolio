@@ -1,0 +1,41 @@
+.nav-row {
+    position: relative;
+    padding: 10px;
+    margin-top: 70px;
+}
+
+.nav-button {
+    background-color: #32F08E;
+    border: none;
+    color: #FFBA94;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    transition-duration: 0.9s;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 35px;
+    animation: fadeInAnimation ease-in 1.5s;
+    animation-iteration-count: 1;
+}
+
+.nav-button:hover {
+    filter: invert(0.94);
+    transform: scale(1.2);
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media(max-width: 1000px){
+    .nav-row {
+        margin-top: 20px;
+    }
+}
