@@ -17,6 +17,12 @@
     animation-iteration-count: 1;
 }
 
+.project-desc a {
+    font-size: 20px;
+    color: #FFBA94;
+    transition-duration: 0.7s;
+}
+
 .box-1 {
     flex:1;
 }

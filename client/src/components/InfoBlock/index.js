@@ -29,6 +29,16 @@ function InfoBlock() {
                 </ul>
                 <h1>Resume:</h1>
                 <a href={resume}><p>Click Link of PDF Version</p></a>
+                <div className="project-link-box project-desc">
+                        <a target="_blank" rel="noreferrer" href="https://murmuring-harbor-89874.herokuapp.com/">Link to Website</a>
+                        <br />
+                        <br />
+                        <a target="_blank" rel="noreferrer" href="https://github.com/Drewski419/React-Portfolio">Link to Github Repo</a>
+                    </div>
+
+
+
+
             </div>
         </div>
     )
