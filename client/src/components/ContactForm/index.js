@@ -52,9 +52,11 @@ function ContactForm() {
             <div className= "contact-box">
                 <h1>Contact</h1>
                 <div className="contact-info-box">
-                    <h3>For all inquiries you can email me at:</h3>
-                    <a href="mailto:b.piercy567@gmail.com"><p>ajefferson419@yahoo.com</p></a>
-                    <a href="mailto:brandonpiercy@ucsb.edu"><p>use linked in address</p></a>
+                    <h3>Any questions, contact me at:</h3>
+                   <p></p>
+                    <a href="mailto:drewjefferson66@gmail.com"><h2>drewjefferson66@gmail.com</h2></a>
+                   <p></p>                    
+                    <a href="mailto:https://www.linkedin.com/in/drew-jefferson-6580aa206/"><h2>LinkedIn</h2></a>
                 </div>
             </div>
         </div>

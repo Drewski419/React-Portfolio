@@ -1,37 +1,45 @@
 import React from 'react';
 import "./style.css";
-import icebox from "../../images/Manzy.jpg"
-import snippet from "../../images/First.jpg";
+import nogym from "../../images/nogymtest.gif"
+import comfort from "../../images/screencap.gif";
 
 function ProjectGroup() {
     return(
         <div>
             <div className="project">
                 <div className="project-image">
-                    <img src={snippet} alt="this is a grab of Snippet.im"/>
+                    <img src={comfort} alt="screen capture of site"/>
                 </div>
                 <div className="project-desc">
-                    <h1>Snippet</h1>
-                    <p>Snippet is a full-stack React.js application with a MySQL database, routed with Express.js. The application stores snippets of code that developers may want to reference for future use. Users can sign up for an account, but they do not have to in order to search and browse through the snippets already in the database. Users do have to create an account to create code snippets and insert them into the database. When creating code, the user assigns a title, description and tags to make it easier for other users to search for and find. Commenting, likes, copies and other user data is tracked. The application was created by a group of 5 people, myself included. Development started January 11th of 2021 and continues for the forseeable future. My primary responsibilities in this project were creating API end points for our sequelize models, and creating the front-end and logic for the "create-code" page.</p>
+                    <h1>Home Cooked Comfort</h1>
+                    <p>USER STORY</p>
+                    <p>As a user stuck in quarantine, I want to search for new recipes to make while stuck at home. I should be able to filter my search based on food type and allergies.
+                    WHEN I load the home page, THEN random recipes are appended to the page that lead to recipe pages.
+                    WHEN I search for specific food types on the recipe page, THEN recipes of that type should appear to view.
+                    WHEN I enter allergies on the recipe, THEN recipes that include those allergens should not appear in the recipe list.</p>
                     <div className="project-link-box">
-                        <a target="_blank" rel="noreferrer" href="http://www.snippet.ltd">Heroku Deployment</a>
+                        <a target="_blank" rel="noreferrer" href="https://tchristensendrumz.github.io/Home-Cooked-Comfort/">Link to Website</a>
                         <br />
-                        <a target="_blank" rel="noreferrer" href="https://github.com/ma-wong/project-3/">Github Repo</a>
+                        <a target="_blank" rel="noreferrer" href="https://github.com/Drewski419/Home-Cooked-Comfort">Link to Github Repo</a>
                     </div>
                 </div>
             </div>
 
             <div className="project">
                 <div className="project-image">
-                    <img src={icebox} alt="this is a grab of icebox's homepage"/>
+                    <img src={nogym} alt="screen capture of site"/>
                 </div>
                 <div className="project-desc">
-                    <h1>Icebox</h1>
-                    <p>Icebox is an app meant to act as an online sneaker encyclopedia. Shoes, and sneakers especially, have a massive secondary market. Limited edition shoes are highly sought after items which are often sold out within seconds and there are many consumers that seek information related to these shoes. In the Icebox app, users can search for a shoe, filter based on collaborator, release date, size, current prices and more. From there a user can select a shoe to view, and the user will be presesnted with more detailed information about the shoe. On this page users can leave public comments about the shoe, which introduces a minor social element. The app is built using HTML, CSS, and Javascript. The server is run with Node Package Manager, express.js, and MySQL. The database currently has over 200 shoes indexed.</p>
+                    <h1>NoGym</h1>
+                    <p>NoGym is a web application that provides a personalized virtual gym based on the user's current workout environment. The web app collects the user's input on the workout equipment they have available and produces a personalized routine for them to follow with the equipment that they have at home.</p>
+                    <p>During the Covid-19 pandemic many states went into a state of emergency and gyms were closed, forcing gym-goers to workout at home. It was quickly apparent that working out at home did not provide the same satisfaction. We created this app to help people obtain a workout that fits their 2020 lifestyle and follow a routine that is suited for their environment.</p>
+                    <p>The user is required to sign up (for free) to begin using the app. Once they’ve logged in, the app will ask them to input their environment by selecting the workout equipment that they have available at home.</p>
+                    <p>After setting up their environment, they can access “All Exercises” which provides a wide array of exercises for each muscle group.They can also go into their “Virtual Gym” where their personalized workout will be available.</p>
+                    <p>From the main page the user has the option to use a BMI (body mass index) calculator and learn about what BMI means, or use the caloric need calculator to find out how many calories they must consume to reach their desired goal.</p>
                     <div className="project-link-box">
-                        <a target="_blank" rel="noreferrer" href="https://github.com/brandonleepiercy/sneaker-wikipedia">Github Repo</a>
+                        <a target="_blank" rel="noreferrer" href="https://nogym.herokuapp.com">Link to Heroku Deployment</a>
                         <br />
-                        <a target="_blank" rel="noreferrer" href="https://infinite-castle-57105.herokuapp.com">Heroku Deployment</a>
+                        <a target="_blank" rel="noreferrer" href="https://github.com/TChristensenDrumz/NoGym">Link to Github Repo</a>
                     </div>
                 </div>
             </div>

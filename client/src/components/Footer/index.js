@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import logo from "../../images/Drops.png";
+import logo from "../../images/DrewPic2.png";
 
 function Footer() {
     return(
@@ -8,7 +8,7 @@ function Footer() {
             <div className="inner-footer">
 
                 <div className="logo-container">
-                    <a href="/home"><img src={logo} alt="simple square logo featuring my initials"/></a>
+                    <a href="/home"><img src={logo} alt="a pic of me"/></a>
                 </div>
 
                 <div className="footer-third">
@@ -21,14 +21,14 @@ function Footer() {
 
                 <div className="footer-third">
                     <h1>Links</h1>
-                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/brandon-piercy-8713a1130/">LinkedIn</a>
-                    <a target="_blank" rel="noreferrer" href="https://github.com/brandonleepiercy/">GitHub</a>
+                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/drew-jefferson-6580aa206/">LinkedIn</a>
+                    <a target="_blank" rel="noreferrer" href="https://github.com/Drewski419">GitHub</a>
                 </div>
 
                 <div className="footer-third">
                     <h1>Proudly built with</h1>
                     <p>React.js, MongoDB, Express/Node, Javascript and deployed using Heroku.
-                    Designed and built by Andrew Clay Jefferson, 2021.
+                    Designed and built by Andrew "Drew" Jefferson, 2021.
                     </p>
                 </div>
 

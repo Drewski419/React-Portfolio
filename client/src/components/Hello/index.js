@@ -8,23 +8,29 @@ function Hello() {
                 <div className="green-box">
                     <div className="text-group">
                         <div className="hi-group">
-                            <h1 className="brandon-text">
-                                <span className="name-1">Hey. Andrew here, but call me Drew</span>
+                            <h1 className="andrew-text">
+                                <span className="name-1">Hello! Drew's the name</span>
                                 <br />
-                                <span className="name-2">Hey. Andrew here, but call me Drew</span>
                                 <br />
-                                <span className="name-3">Hey. Andrew here, but call me Drew</span>
+                                <span className="name-2">Hola! Drew's the name</span>
+                                <br />
+                                <br />
+                                <span className="name-3">Ciao! Drew's the name</span>
                                 <br />
                             </h1>
                         </div>
                         <div className="hi-text">
-                            <h2 className="description-text">I am a full-stack web developer. I specialize in 
-                            <span className="technology">Javascript</span>, 
-                            <span className="technology">Node</span>, 
-                            <span className="technology">Express</span>, 
-                            <span className="technology">MySQL</span>, 
-                            <span className="technology">MongoDB</span> and 
-                            <span className="technology">React.js</span></h2>
+                            <h2 className="description-text">I am a full-stack web developer specializing in 
+                            <span className="technology"> Javascript</span>, 
+                            <span className="technology"> HTML</span>, 
+                            <span className="technology"> CSS</span>, 
+                            <span className="technology"> Node</span>, 
+                            <span className="technology"> Express</span>, 
+                            <span className="technology"> MySQL</span>, 
+                            <span className="technology"> MongoDB</span> and 
+                            <span className="technology"> React.js</span>.  Currently learning 
+                            <span className="technology"> Angular</span> and 
+                            <span className="technology"> PHP</span></h2>
                         </div>
                     </div>
                 </div>
